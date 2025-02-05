@@ -16,7 +16,8 @@ Para compartilhar seu projeto no GitHub, siga os passos abaixo:
    ```
 
 3. **Adicione o repositório remoto e envie os arquivos:**
-   - No terminal, execute os seguintes comandos, substituindo `<username>` pelo seu nome de usuário do GitHub e `<repository>` pelo nome do repositório que você criou:
+   - No terminal, execute os seguintes comandos, substituindo `<username>` 
+   pelo seu nome de usuário do GitHub e `<repository>` pelo nome do repositório que você criou:
 
    ```sh
    git remote add origin https://github.com/<username>/<repository>.git
@@ -25,7 +26,8 @@ Para compartilhar seu projeto no GitHub, siga os passos abaixo:
    ```
 
 4. **Compartilhe o link do repositório:**
-   - Depois de enviar os arquivos, você pode compartilhar o link do repositório com outras pessoas. O link será algo como `https://github.com/<username>/<repository>`.
+   - Depois de enviar os arquivos, você pode compartilhar o link do repositório com outras pessoas. 
+   O link será algo como `https://github.com/<username>/<repository>`.
 
 Aqui está um exemplo completo:
 
@@ -41,4 +43,9 @@ git branch -M main
 git push -u origin main
 ```
 
-Depois de seguir esses passos, seu projeto estará disponível no GitHub e você poderá compartilhar o link do repositório com outras pessoas.
+--- Para subir alterações realizadas no git
+git status
+git add .
+git commit -m "Descrição das alterações"
+git push
+
